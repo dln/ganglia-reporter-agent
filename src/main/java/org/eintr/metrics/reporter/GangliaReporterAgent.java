@@ -15,7 +15,7 @@ import com.yammer.metrics.reporting.GangliaReporter;
 public class GangliaReporterAgent {
 
     private static final String GANGLIA_HOST = "localhost";
-    private static final String GANGLIA_PREFIX = "cassandra";
+    private static final String GANGLIA_PREFIX = "";
     private static final int GANGLIA_PORT = 8649;
     private static final long REFRESH_PERIOD = 10;
     // Check TimeUnit javadoc for other possible values here like TimeUnit.MINUTES, etc
